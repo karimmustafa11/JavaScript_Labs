@@ -1,0 +1,31 @@
+.Parent {
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+#img_left,
+#img_right,
+#img_down {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#img_left {
+    left: 0;
+    top: 50%;
+    right: 700px;
+}
+
+#img_right {
+    right: 0;
+    top: 50%;
+}
+
+#img_down {
+    left: 50%;
+    bottom: 0px;
+}

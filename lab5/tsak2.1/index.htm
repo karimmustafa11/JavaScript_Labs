@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detect Key Press</title>
+    <script>
+        document.addEventListener('keydown', function (event) {
+            alert(`your key: ${event.key} (ASCII Code: ${event.keyCode})`);
+
+            if (event.altKey) {
+                alert('Alt key is pressed.');
+            }
+            if (event.ctrlKey) {
+                alert('Ctrl key is pressed.');
+            }
+            if (event.shiftKey) {
+                alert('Shift key is pressed.');
+            }
+        })
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
